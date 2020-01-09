@@ -1,43 +1,20 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "<h1><center>Amazon Beauty Products - Recommender System</center></h1>"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Introduction\n",
-    "\n",
-    "This capstone project is part of the Data Science career track program at Springboard. An intelligent recommendation engine has been built for beauty products that are sold on Amazon.com. By providing personalized recommendations, the ecomm giant will be able to give it's customers the ability to take their brand experiences into their hands and make informed decisions. This level of personalization will support higher customer retention and reiniforce brand loyalty. A hybrid recommendation engine is developed powered by the Amazon dataset, offering a combination of popularityibased recommendation, personalized content-based recommendation and personalized collaborative recommendation at users' choice."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Data Collection\n",
-    "\n",
-    "The dataset has been downloaded from the website: http://jmcauley.ucsd.edu/data/amazon/links.html\n",
-    "(Citation:\n",
-    "Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering\n",
-    "R. He, J. McAuley\n",
-    "WWW, 2016)\n",
-    "\n",
-    "There are 2 individual json files containing the beauty product reviews and metadata from Amazon. The reviews file has ~2 million reviews spanning May 1996 - July 2014. The metadata file contains the details of ~260K beauty products sold at Amazon."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Data Wrangling\n",
-    "\n",
-    "After loading the json files into pandas dataframe, the raw data was cleaned, structured and enriched into a cleaner format.\n",
+## Introduction
+
+This capstone project is part of the Data Science career track program at Springboard. An intelligent recommendation engine has been built for beauty products that are sold on Amazon.com. By providing personalized recommendations, the ecomm giant will be able to give it's customers the ability to take their brand experiences into their hands and make informed decisions. This level of personalization will support higher customer retention and reiniforce brand loyalty. A hybrid recommendation engine is developed powered by the Amazon dataset, offering a combination of popularityibased recommendation, personalized content-based recommendation and personalized collaborative recommendation at users' choice.
+
+## Data Collection
+
+The dataset has been downloaded from the website: http://jmcauley.ucsd.edu/data/amazon/links.html
+(Citation:
+Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering
+R. He, J. McAuley
+WWW, 2016)
+
+There are 2 individual json files containing the beauty product reviews and metadata from Amazon. The reviews file has ~2 million reviews spanning May 1996 - July 2014. The metadata file contains the details of ~260K beauty products sold at Amazon.
+
+## Data Wrangling
+
+After loading the json files into pandas dataframe, the raw data was cleaned, structured and enriched into a cleaner format.\n",
     "\n",
     "The metadata file contains the details of ~260K beauty products sold at Amazon. There are 9 columns in the file including asin, description, title, brand, categories, related, price, sales rank and image url. No duplicate values were found in the asin column. \n",
     "\n",
@@ -214,103 +191,3 @@
     "\n",
     "##### Cons:\n",
     "The feature representation of the items must be very rich because the model solely depends on that. The model can make recommendations based only on existing interests of the user. So it tends to over-specialize and will recommend items only similar to those already used and rated."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## 4. Conclusion"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.7.3"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 2
-}
