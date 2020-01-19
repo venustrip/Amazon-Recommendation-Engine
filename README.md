@@ -60,7 +60,7 @@ Hybrid method combines 2 or more of the above methods to improve the performance
 RMSE (Root Mean Squared Error) and MAE (Mean Absolute Error) were used to evaluate the performance of each recommender system and the scores were compared to determine the best performance. Strong recommender systems can have positive effects on user experience. They can result into higher customer satisfaction and retention, and in turn boost revenues.
 
 ## Further Readings
-Link to the Full Report:
+Link to the Full Report: https://github.com/venustrip/Amazon-Recommendation-Engine/blob/master/final_report.ipynb
 
-Link to the Slide Deck:
+Link to the Slide Deck: https://github.com/venustrip/Amazon-Recommendation-Engine/blob/master/slide_deck.ipynb
 
