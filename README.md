@@ -62,5 +62,5 @@ RMSE (Root Mean Squared Error) and MAE (Mean Absolute Error) were used to evalua
 ## Further Readings
 Link to the Full Report: https://github.com/venustrip/Amazon-Recommendation-Engine/blob/master/final_report.ipynb
 
-Link to the Slide Deck: https://github.com/venustrip/Amazon-Recommendation-Engine/blob/master/slide_deck.ipynb
+Link to the Slide Deck: https://github.com/venustrip/Amazon-Recommendation-Engine/blob/master/slide_deck.pdf
 
