@@ -31,9 +31,8 @@ Key observations during the EDA were:
 
 1. Most of the reviews (62%) had an overall rating of 5 which means positive reviews. 
 2. Most of the polarity scores were above 0, which means most reviews had positive sentiments in the data.
-3. Price and Polarity had a strong positive correlation. 
-4. Overall and Polarity also had a positive correlation, although not too strong, which is odd.
-5. There were quite a few reviews where the polarity (sentiment analysis) was inconsistent with the overall rating.
+3. Overall and Polarity also had a positive correlation, although not too strong, which is odd.
+4. There were quite a few reviews where the polarity (sentiment analysis) was inconsistent with the overall rating.
 
 ## Recommender Systems
 
